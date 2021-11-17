@@ -1,25 +1,28 @@
-<!DOCTYPE html>   
-<html>   
-<head>  
-<meta name="viewport" content="width=device-width, initial-scale=1">  
-<title> Login Page </title>  
-<head>
-
-    <link rel="stylesheet" href="style.css">
+<!--Building student portal-->
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login</title>    
+    <link rel="stylesheet" type="text/css" href="style.css">    
 </head>    
 <body>    
-    <center> <h1> Student Login Form </h1> </center>   
-    <form>  
-        <div class="container">   
-            <label>Username : </label>   
-            <input type="text" placeholder="Enter Username" name="username" required>  
-            <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="password" required>  
-            <button type="submit">Sign In</button>   
-            <input type="checkbox" checked="checked"> Remember me   
-            <button type="button" class="cancelbtn"> Cancel</button>   
-            Forgot <a href="#"> password? </a>   
-        </div>   
-    </form>     
-</body>     
-</html> 
+    <h2>ACME UNIVERSITY</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="userName" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Password" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In">       
+        <br><br>       
+    </form> 
+        
+</div>    
+</body>    
+</html>    
